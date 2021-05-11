@@ -1,0 +1,16 @@
+1. git clone : kĂ©o dá»± Ă¡n trĂªn server vá» mĂ¡y tĂ­nh
+2. git init : khá»Ÿi táº¡o local repository, chá»‰ lĂ m 1 láº§n
+3. git status : kiá»ƒm tra status cá»§a nhá»¯ng file cĂ³ sá»± thay Ä‘á»•i
+4. git add . : Ä‘Æ°a táº¥t cáº£ cĂ¡c file cĂ³ sá»± thay Ä‘á»•i vĂ o vĂ¹ng staging
+5. git add [ten_file] : add má»™t file cĂ³ sá»± thay Ä‘á»•i vĂ o dĂ¹ng staging
+6. git commit -m "message here" : Ä‘Æ°a má»™t file tá»« staging sang local repository (thÆ° má»¥c git), lĂºc nĂ y Ä‘Ă£ sáºµn sĂ ng Ä‘á»ƒ Ä‘áº©y code lĂªn server
+7. git log : xem lá»‹ch sá»­ commit
+8. git remote add origin [Ä‘Æ°á»ng_dáº«n_repo_trĂªn_github] : táº¡o káº¿t ná»‘i giá»¯a local repo vá»›i repo trĂªn github, chá»‰ lĂ m má»™t láº§n
+9. git push -u origin [tĂªn_branch] : cĂº phĂ¡p Ä‘áº©y code lĂªn server khi branch cáº§n push chÆ°a cĂ³ trĂªn server
+10. git push : Ä‘áº©y code lĂªn server khi Ä‘Ă£ cĂ³ branch Ä‘Ă³ trĂªn server
+11. git branch : kiá»ƒm tra cĂ¡c nhĂ¡nh hiá»‡n táº¡i á»Ÿ local vĂ  xem mĂ¬nh Ä‘ang á»Ÿ branch nĂ o
+12. git branch [tĂªn_branch] : táº¡o má»™t nhĂ¡nh má»›i á»Ÿ local
+13. git checkout [tĂªn_branch] : chuyá»ƒn sang má»™t nhĂ¡nh nĂ o Ä‘Ă³
+14. git checkout -b [tĂªn_branch] : vá»«a táº¡o ra má»™t nhĂ¡nh má»›i vá»«a chuyá»ƒn qua nhĂ¡nh vá»«a táº¡o (káº¿t há»£p giá»¯a 12 vĂ  13)
+15. git pull : kĂ©o code má»›i tá»« server vá», muá»‘n kĂ©o code tá»« nhĂ¡nh nĂ o thĂ¬ pháº£i checkout qua nhĂ¡nh Ä‘Ă³ trÆ°á»›c
+16. git merge [nhĂ¡nh_muá»‘n_merge]: há»£p nháº¥t code tá»« nhĂ¡nh nĂ y vá»›i nhĂ¡nh kia (vd: nhĂ¡nh A Ä‘ang cĂ³ code má»›i hÆ¡n nhĂ¡nh B, lĂºc nĂ y muá»‘n merge code tá»« nhĂ¡nh A vĂ o nhĂ¡nh B thĂ¬ checkout qua nhĂ¡nh B trÆ°á»›c sau Ä‘Ă³ gĂµ git merge [nhĂ¡nh_A])

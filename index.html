@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/videopopup.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="video">
+        <div class="video__content">
+            <div class="video__left">
+                <img src="./images/video.jpg" alt="">
+                <a href="#small-dialog1" class="play-icon popup-with-zoom-anim"><span class="fa fa-play-circle" aria-hidden="true"></span></a>
+                <div id="small-dialog1" class="w3ls_small_dialog wthree_pop mfp-hide">
+                    <div class="agileits_modal_body">
+                        <iframe src="https://player.vimeo.com/video/106770833"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="video__text">
+                <p class="title title--video">Get More..</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut minim veniam, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi esse quam nihil molestiae
+                    consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. </p>
+                <button class="btn_blog"><a data-toggle="modal" data-target="#myModal" href="">Read More..</a></button>
+                <div class="modal fade " id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header ">
+                                <p>Housing</p>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true"> x</span> </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="img__modal" src="./images/img2.jpg" alt="">
+                                <p class="text__modal">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: "auto",
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
+        });
+    </script>
+    <!-- End Video -->
+</body>
+
+</html>
